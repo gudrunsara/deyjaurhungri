@@ -1,0 +1,19 @@
+.aboutSection {
+  padding: 100px;
+  background-color: rgb(218, 67, 62);
+}
+
+.aboutSection h2 {
+  color: rgb(245, 219, 71);
+}
+
+.aboutText {
+  display: flex;
+}
+.aboutText p:first-of-type {
+  margin-right: 20px;
+}
+
+.aboutText span {
+  color: rgb(245, 219, 71);
+}
