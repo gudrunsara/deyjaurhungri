@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$orange: #fb4c00;
+$white: #ece8d7;
+$grey: #4f4f4f;
+$almost-black: #060606;
+$main-font: "Poppins", sans-serif;
+
+/* desktop */
+@media (min-width: 1025px) {
+  .site-padding {
+    padding: 40px 15%;
+
+    h2 {
+      font-size: 50px;
+    }
+  }
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .site-padding {
+    padding: 20px 20px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
+/* mobile */
+@media (min-width: 320px) and (max-width: 769px) {
+  .site-padding {
+    padding: 10px 10px;
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .paragraph-padding {
+    padding: 0px 20px;
+  }
+}

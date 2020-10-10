@@ -1,0 +1,55 @@
+.unicef {
+  .hideMore {
+    display: none;
+  }
+
+  .unicef-verk-div {
+    display: flex;
+    justify-content: space-between;
+
+    .unicef-verk {
+      padding-top: 100px;
+      padding-right: 50px;
+      padding-bottom: 50px;
+      p {
+        text-align: center;
+      }
+    }
+    .unicef-verk:last-child {
+      padding-right: 0px;
+      padding-left: 10px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 769px) {
+  .unicef {
+    margin-bottom: 40px;
+    text-align: center;
+
+    .unicef-verk-div {
+      display: block;
+
+      .unicef-verk:first-of-type {
+        width: 60%;
+      }
+
+      .unicef-verk {
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        margin: auto;
+        width: 70%;
+
+        p {
+          text-align: center;
+        }
+      }
+
+      .unicef-verk:last-child {
+        padding-right: 0px;
+        padding-left: 10px;
+      }
+    }
+  }
+}

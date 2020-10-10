@@ -1,0 +1,64 @@
+@import "./constants.scss";
+
+#Interview {
+  background-color: $orange;
+}
+
+.interview {
+  margin: auto;
+  padding: 40px 15%;
+
+  #quote1 {
+    width: 100%;
+    padding-right: 30px;
+  }
+
+  #quote2 {
+    width: 100%;
+    padding-left: 30px;
+  }
+
+  .interview-audio {
+    width: 100%;
+  }
+  .mobile-quote {
+    display: none;
+  }
+
+  .desktop-quote {
+    display: block;
+  }
+}
+
+.interview-align-center {
+  text-align: center;
+}
+
+// Mobile
+@media (min-width: 320px) and (max-width: 769px) {
+  .interview {
+    margin: auto;
+    padding: 30px 20px;
+
+    #quote1 {
+      width: 100%;
+      padding-right: 0px;
+    }
+
+    #quote2 {
+      width: 100%;
+      padding-left: 0px;
+    }
+
+    .interview-audio {
+      width: 100%;
+    }
+    .mobile-quote {
+      display: block;
+    }
+
+    .desktop-quote {
+      display: none;
+    }
+  }
+}

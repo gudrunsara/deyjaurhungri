@@ -1,5 +1,25 @@
+@import "./styles/constants.scss";
+
 .App {
   text-align: left;
-  background-color: #282c34;
   color: white;
+}
+
+/* desktop */
+@media (min-width: 1025px) {
+  .App {
+    background-color: black;
+  }
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .App {
+    background-color: blue;
+  }
+}
+/* mobile */
+@media (min-width: 320px) and (max-width: 769px) {
+  .App {
+    background-color: black;
+  }
 }

@@ -1,0 +1,72 @@
+@import "./constants.scss";
+
+.AboutUs {
+  text-align: justify;
+  font-family: $main-font;
+
+  .about-us-text {
+    display: flex;
+    position: relative;
+    z-index: 1;
+  }
+
+  .component-title {
+    z-index: 1;
+    font-size: 60px;
+  }
+
+  p {
+    color: white;
+  }
+
+  p:first-of-type {
+    margin-right: 20px;
+  }
+
+  p:last-of-type {
+    margin-left: 20px;
+  }
+}
+
+// Mobile
+@media (min-width: 320px) and (max-width: 769px) {
+  .AboutUs {
+    text-align: left;
+    font-family: $main-font;
+
+    .component-title {
+      z-index: 1;
+      font-size: 30px;
+    }
+
+    p {
+      color: white;
+    }
+
+    p:first-of-type {
+      margin-right: 0px;
+    }
+
+    p:last-of-type {
+      margin-left: 0px;
+    }
+  }
+
+  .about-us-text {
+    flex-direction: column;
+    width: 100vw;
+    align-self: center;
+
+    & * {
+      margin-right: 0px;
+      margin-left: 0px;
+      width: 80vw;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 769px) {
+  .AboutUs {
+    margin-bottom: 40px;
+  }
+}
