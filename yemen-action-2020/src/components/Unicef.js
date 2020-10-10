@@ -5,7 +5,6 @@ import hreintVatn from "../images/unicef_verkefni/Hreint_vatn2.png";
 import bolusetningar from "../images/unicef_verkefni/Bolusetningar2.png";
 import jardhnetumauk from "../images/unicef_verkefni/Jardhnetumauk.png";
 import penni from "../images/unicef_verkefni/Penni.png";
-import bok from "../images/unicef_verkefni/Bok.png";
 
 jquery(document).ready(function () {
   jquery("#moreButtonUnicef").on("click", function () {

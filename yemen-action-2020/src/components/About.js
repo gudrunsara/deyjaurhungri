@@ -3,8 +3,6 @@ import "../styles/About.scss";
 import yemenMap from "../images/Yemen-map-teiknad.png";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
-import diskur from "../images/Diskur.png";
-import Jordin from "../images/Jordin.png";
 
 import jquery from "jquery";
 
@@ -91,13 +89,6 @@ class About extends Component {
             <div>
               <img class="only-desktop" src={yemenMap} alt="yemen-map"></img>
             </div>
-            {/* <div>
-            <img src={diskur} alt="diskur" width=""></img>
-          </div>
-
-          <div>
-            <img src={diskur} alt="diskur" width=""></img>
-          </div> */}
           </div>
         </ScrollAnimation>
       </div>
